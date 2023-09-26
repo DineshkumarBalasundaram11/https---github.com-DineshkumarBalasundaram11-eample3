@@ -1,0 +1,58 @@
+body{
+    background: url(img/bg3.jpg) ;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;   
+}
+.register{
+    width: 500px;
+    margin: 100px auto;
+    padding: 10px 20px 30px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    font-size: 20px;
+    border-radius: 10px;
+
+}
+.register h2{
+    text-align: center;
+    color: cyan;
+}
+.register .textbox{
+    display: block;
+
+}
+.input input{
+    width: 70%;
+    font-size: 1.0em;
+border: 1px solid #006d77;
+box-shadow: 2px;
+border-radius: 10px;
+padding: 5px 10px;
+box-sizing: border-box;
+margin: 5px 0px 15px;
+}
+input:focus{
+    background-color: #83c5be;
+}
+.btn{
+    text-align: center;
+}
+button{
+    background-color: #83c5be;
+    font-size: 20px;
+    color: white;
+    margin-top: 20px;
+    padding: 7px 15px;
+    border-radius: 5px;
+    border: 1px solid #006d77;
+    box-shadow: 2px;
+}
+button:hover{
+    cursor: pointer;
+    color: purple;
+}
+.radio input{
+accent-color: blue;
+transform: scale(1);
+-ms-transform: scale(1);
+-webkit-transform: scale(1);
+}
